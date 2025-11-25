@@ -1,92 +1,94 @@
 
+# Backend Portfolio — Laura Mendoza
 
-Backend Portfolio — Laura Mendoza
+Repositorio que refleja mi crecimiento como desarrolladora backend con **Java + Spring Boot**, con enfoque en arquitecturas limpias, APIs REST y buenas prácticas.
 
-Este repositorio reúne mis proyectos, prácticas y plantillas backend desarrolladas durante mi formación como Java Backend Developer.
-Mi foco está puesto en construir APIs limpias, mantenibles y escalables, aplicando buenas prácticas y documentación clara.
+---
 
-Tecnologías principales
+## Tecnologías
 
-Java 17+
+**Lenguajes y frameworks**  
+Java 17+, Spring Boot, Spring Web, JPA/Hibernate
 
-Spring Boot
-
-Maven
-
+**Base de datos**  
 MySQL / H2
 
-Spring Web (REST)
+**Herramientas**  
+Maven, Postman, Git
 
-JPA / Hibernate
+**Extras**  
+Thymeleaf (en algunos proyectos)
 
-Thymeleaf (cuando corresponde)
+---
 
-Postman para pruebas
+## Estructura del repositorio
 
-Estructura del repositorio
 backend-portfolio/
 │
 ├── proyectos/
-│   ├── proyecto-01/
-│   ├── proyecto-02/
-│   └── ...
+│ ├── proyecto-01/
+│ ├── proyecto-02/
+│ └── ...
 │
 ├── ejercicios/
-│   ├── controladores/
-│   ├── servicios/
-│   ├── excepciones/
-│   └── bases/
+│ ├── controladores/
+│ ├── servicios/
+│ ├── excepciones/
+│ └── bases/
 │
 ├── plantillas/
-│   └── spring-boot-base/
+│ └── spring-boot-base/
 │
 └── README.md
 
-Sobre cada carpeta
 
-proyectos/
-Proyectos completos listos para mostrar en el portfolio.
+- `/proyectos/`: proyectos completos para mostrar ideas, APIs y lógica real.  
+- `/ejercicios/`: prácticas más pequeñas para dominar controladores, entidades, validaciones, excepciones, etc.  
+- `/plantillas/`: boilerplates para arrancar nuevos proyectos con estructura limpia.
 
-ejercicios/
-Ejercicios puntuales para practicar controladores, servicios, entidades, excepciones y lógica básica.
+---
 
-plantillas/
-Estructuras base para iniciar proyectos rápidamente con una arquitectura ordenada.
+## Qué vas a ver en este portfolio
 
-Qué vas a encontrar
+- Endpoints REST estructurados  
+- Servicios desacoplados  
+- Persistencia con JPA  
+- Validación de datos  
+- Manejo de errores  
+- Conexión a bases de datos (MySQL / H2)  
+- Código bien documentado
 
-Controladores REST organizados
+---
 
-Servicios desacoplados
+## Cómo ejecutar un proyecto
 
-Repositorios JPA
+1. Clonar el repositorio:  
+   `git clone https://github.com/Laummendoza/backend-portfolio.git`
 
-Validaciones
+2. Acceder a un proyecto dentro de `/proyectos`:  
+   `cd proyectos/proyecto-01` (o el que quieras)
 
-Manejo de excepciones
+3. Ejecutar con Maven:  
+   `mvn spring-boot:run`
 
-Código documentado
+4. Probar los endpoints:  
+   Abrir en el navegador o Postman → `http://localhost:8080`
 
-Ejemplos funcionales con MySQL y H2
+---
 
-Diagramas y documentación técnica
+## Objetivo del portfolio
 
-Cómo ejecutar los proyectos
+Mi intención es:
 
-1. Clonar el repositorio
+- Mostrar mi progreso real como backend developer  
+- Demostrar mi capacidad para estructurar código profesional  
+- Compartir prácticas y proyectos que utilizo para aprender y crecer  
 
-git clone https://github.com/tu_usuario/backend-portfolio
+---
 
+## Sobre mí
 
-2. Entrar al proyecto
+Soy **Laura Mendoza**, médica de formación que decidió volcar su pensamiento analítico en la programación backend. Me apasiona crear soluciones escalables, bien diseñadas y con sentido técnico.
 
-cd proyecto-ejemplo
+---
 
-
-3. Ejecutar Spring Boot
-
-mvn spring-boot:run
-
-
-4. Acceder a los endpoints
-http://localhost:8080
