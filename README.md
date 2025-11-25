@@ -1,94 +1,92 @@
-📌 Backend Portfolio — Laura Mendoza
 
-Repositorio que centraliza mis proyectos, ejercicios y plantillas backend desarrollados durante mi formación como Java Backend Developer.
-Mi enfoque está puesto en construir APIs limpias, mantenibles y escalables, aplicando buenas prácticas, arquitectura en capas y documentación clara.
 
-🚀 Tecnologías principales
+Backend Portfolio — Laura Mendoza
+
+Este repositorio reúne mis proyectos, prácticas y plantillas backend desarrolladas durante mi formación como Java Backend Developer.
+Mi foco está puesto en construir APIs limpias, mantenibles y escalables, aplicando buenas prácticas y documentación clara.
+
+Tecnologías principales
 
 Java 17+
 
-Spring Boot (Spring Web, Spring Data JPA, Spring Security básico)
-
-MySQL / H2
+Spring Boot
 
 Maven
 
+MySQL / H2
+
+Spring Web (REST)
+
 JPA / Hibernate
 
-Postman
+Thymeleaf (cuando corresponde)
 
-Thymeleaf (en algunos proyectos)
+Postman para pruebas
 
-Git / GitHub
+Estructura del repositorio
+backend-portfolio/
+│
+├── proyectos/
+│   ├── proyecto-01/
+│   ├── proyecto-02/
+│   └── ...
+│
+├── ejercicios/
+│   ├── controladores/
+│   ├── servicios/
+│   ├── excepciones/
+│   └── bases/
+│
+├── plantillas/
+│   └── spring-boot-base/
+│
+└── README.md
 
-📂 Estructura del repositorio
-/proyectos/
+Sobre cada carpeta
 
-Proyectos completos orientados a APIs REST, CRUD, seguridad y conexión a base de datos.
+proyectos/
+Proyectos completos listos para mostrar en el portfolio.
 
-/ejercicios/
+ejercicios/
+Ejercicios puntuales para practicar controladores, servicios, entidades, excepciones y lógica básica.
 
-Mini–prácticas para fortalecer conceptos específicos:
+plantillas/
+Estructuras base para iniciar proyectos rápidamente con una arquitectura ordenada.
 
-controladores
+Qué vas a encontrar
 
-servicios
+Controladores REST organizados
 
-repositorios
+Servicios desacoplados
 
-DTOs
+Repositorios JPA
 
-validaciones
+Validaciones
 
-manejo de excepciones
+Manejo de excepciones
 
-pruebas básicas
+Código documentado
 
-/plantillas/
+Ejemplos funcionales con MySQL y H2
 
-Boilerplates listos para iniciar rápida y ordenadamente un proyecto con Spring Boot.
+Diagramas y documentación técnica
 
-🧪 Qué vas a encontrar
+Cómo ejecutar los proyectos
 
-Arquitectura en capas (controller → service → repository → entity)
+1. Clonar el repositorio
 
-Endpoints REST documentados
-
-Persistencia con MySQL y H2
-
-Código modular y comentado
-
-Manejo centralizado de excepciones
-
-Validaciones con @Valid
-
-Modelos y DTOs desacoplados
-
-Scripts SQL y diagramas (cuando corresponde)
-
-🧰 Cómo ejecutar cualquier proyecto
-
-Clonar el repo
-
-git clone https://github.com/Laummendoza/backend-portfolio
-
-
-Ingresar a un proyecto
-
-cd proyectos/nombre-proyecto
+git clone https://github.com/tu_usuario/backend-portfolio
 
 
-Ejecutar Spring Boot
+2. Entrar al proyecto
+
+cd proyecto-ejemplo
+
+
+3. Ejecutar Spring Boot
 
 mvn spring-boot:run
 
 
-o desde el botón Run de VS Code.
-
-Acceder a los endpoints
-
+4. Acceder a los endpoints
 http://localhost:8080
-
-📌 Estado
-
-Este repositorio se actualiza semanalmente con nuevos ejercicios y proyectos que reflejan mi progreso como desarrolladora backend.
